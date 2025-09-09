@@ -10,6 +10,10 @@ if (document.body.clientWidth < 375) {
 }
 
 $(() => {
+	
+})
+
+$(window).on('load', () => {
 	if ($('.swiper-left').length) {
 		new Swiper(".swiper-left", {
 			spaceBetween: 0,
@@ -59,20 +63,23 @@ $(() => {
 			breakpoints: {
 				'320': {
 					speed: 6000,
+					initialSlide: 1,
 				},
 				'480': {
-					speed: 3900,
+					speed: 6000,
+					initialSlide: 1,
 				},
 				'768': {
 					speed: 6000,
+					initialSlide: 1,
+				},
+				'1660': {
+					speed: 6000,
+					initialSlide: 2,
 				}
 			},
 		});
 	}
-})
-
-$(window).on('load', () => {
-	
 })
 
 const container = document.querySelector('.bonus__container');
