@@ -1,0 +1,265 @@
+@media (max-width: 1023px)
+{
+	body 
+	{
+        font-size: 13px;
+    }
+
+	.main-title
+	{
+		font-size: 34px;
+	}
+
+
+	.header
+	{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.header__box
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        right: -270px;
+
+        display: block;
+        overflow-y: auto;
+
+        width: 270px;
+        height: 100%;
+        margin: 0;
+        padding: 15px;
+
+        transition: right .3s linear;
+        background: #F8FBF9;
+
+		align-items: flex-start;
+		align-content: flex-start;
+    }
+
+    .header__box._show
+    {
+        right: 0;
+    }
+
+	.mob-menu-link
+    {
+        display: block;
+    }
+
+
+	.nav-menu
+	{
+		position: relative;
+		top: 0;
+		left: 0;
+		transform: translate(0);
+
+		display: block;
+		margin-bottom: 30px;
+	}
+
+	.nav-menu__item
+	{
+		font-size: 14px;
+	}
+
+	.nav-menu__item + .nav-menu__item
+	{
+		margin-left: 0;
+		margin-top: 15px;
+	}
+
+	.header__link + .header__link
+	{
+		margin-left: 0;
+		margin-top: 10px;
+	}
+
+
+	.header__info
+	{
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+
+	.first-section
+	{
+		padding-bottom: 100px;
+	}
+
+	.first-section__wrap
+	{
+		width: 37%;
+	}
+
+	.first-section__logo
+	{
+		height: 34px;
+	}
+
+	.first-section__logo-text
+	{
+		margin-top: 5px;
+		font-size: 12px;
+	}
+
+	.first-section__info
+	{
+		margin-top: 30px;
+	}
+	
+	.first-section__amount
+	{
+		font-size: 70px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.first-section__bot 
+	{
+		padding-top: 30px;
+	}
+
+	.products__item
+	{
+		width: 60%;
+	}
+
+	.products__name
+	{
+		font-size: 14px;
+	}
+
+	.products__old-price
+	{
+		font-size: 13px;
+	}
+
+	.products__price
+	{
+		font-size: 15px;
+	}
+
+
+	.it-works__bg
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.it-works__sub-title
+	{
+		margin-top: 15px;
+	}
+
+	.it-works__number
+	{
+		bottom: 14px;
+		left: 14px;
+		width: 40px;
+		height: 40px;
+		line-height: 42px;
+		font-size: 20px;
+	}
+
+	.it-works__name
+	{
+		margin-top: 15px;
+		font-size: 15px;
+	}
+
+
+	.bonus__container
+	{
+		margin-top: 30px;
+	}
+
+	.bonus__title
+	{
+		font-size: 22px;
+	}
+
+	.advantages__item
+	{
+		padding: 20px 15px 25px;
+	}
+
+	.advantages__name
+	{
+		font-size: 15px;
+	}
+
+
+	.integration__sub-title 
+	{
+		margin-top: 15px;
+	}
+
+	.integration__info
+	{
+		padding: 15px;
+	}
+
+
+	.cards__items 
+	{
+        margin-left: -14px;
+    }
+
+	.cards__item 
+	{
+        width: calc(100% / 4 - 14px);
+        margin: 14px 0 0 14px;
+		padding: 40px 15px 30px;
+		border-radius: 25px 25px 0 0;
+    }
+
+	.cards__val 
+	{
+        font-size: 64px;
+    }
+
+	.cards__name 
+	{
+        font-size: 12px;
+    }
+
+	.cards__label
+	{
+		font-size: 11px;
+	}
+
+	.cards__line-input 
+	{
+        border-radius: 10px;
+		margin-bottom: 10px;
+    }
+
+	.cards__input
+	{
+		font-size: 30px;
+	}
+
+	.cards__bot
+	{
+		margin-top: 30px;
+	}
+
+
+	.footer
+	{
+		padding: 25px 0;
+	}
+
+	.footer .nav-menu
+	{
+		display: none;
+	}
+	/*------------
+		commit
+	------------*/
+}

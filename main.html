@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!-- Переключение IE в последнию версию, на случай если в настройках пользователя стоит меньшая -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		
+		<link rel="stylesheet" href="css/response_1199.css" media="(max-width: 1199px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="(max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="(max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+	<body>
+		<div class="wrap">
+			<!-- Шапка -->
+			<header class="header">
+				<div class="cont _flex">
+					<div class="header__logo">
+						<a href="/">
+							<img src="images/logo.svg" alt="">
+						</a>
+					</div>
+
+					<div class="header__box _flex">
+						<div class="nav-menu _flex">
+							<div class="nav-menu__item">
+								<button type="button" data-anchor="#anchor1" class="scroll-link">Как это работает</button>
+							</div>
+							<div class="nav-menu__item">
+								<button type="button" data-anchor="#anchor2" class="scroll-link">Цена модуля</button>
+							</div>
+							<div class="nav-menu__item">
+								<button type="button" data-anchor="#anchor3" class="scroll-link">Купить модуль</button>
+							</div>
+						</div>
+						
+						<div class="header__link">
+							<button type="button" data-content="#login" class="btn-black _blue modal-btn">Войти</button>
+						</div>
+
+						<div class="header__link">
+							<button type="button" data-content="#registration" class="btn-black modal-btn">Регистация</button>
+						</div>
+					</div>
+
+					<button type="button" class="mob-menu-link">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+
+					<button type="button" class="close-menu">
+						<span></span>
+						<span></span>
+					</button>
+
+					<div class="overlay"></div>
+				</div>
+			</header>
+
+			<!-- End Шапка -->
+
+			<div class="main">
+				<section class="first-section" id="anchor1">
+					<div class="first-section__wrap">
+						<div class="first-section__logo">
+							<img data-src="images/logo_big.svg" src="images/img_plug.png" alt="" class="lazyload">
+						</div>
+
+						<div class="first-section__logo-text">Наполняй в своём стиле</div>
+
+						<div class="first-section__info">
+							<div>уже обработали</div>
+							<div class="first-section__amount">5987</div>
+							<div><span>фото</span></div>
+						</div>
+
+						<div class="first-section__bot">
+							<div class="first-section__icon">
+								<img data-src="images/ic_foto.svg" src="images/img_plug.png" alt="" class="lazyload">
+							</div>
+							<div class="first-section__desc">
+								Модуль для автоматизированного удаления фона с любого фото для вашего интернет-магазина <br>в CMS 1C-Битрикс
+							</div>
+						</div>
+					</div>
+
+					<div class="products _flex">
+						<div class="swiper-left swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide products__item">
+									<div class="products__img">
+										<img data-src="images/foto1.jpg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+								</div>
+								<div class="swiper-slide products__item">
+									<div class="products__img">
+										<img data-src="images/foto2.jpg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+								</div>
+								<div class="swiper-slide products__item">
+									<div class="products__img">
+										<img data-src="images/foto3.jpg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+								</div>
+								<div class="swiper-slide products__item">
+									<div class="products__img">
+										<img data-src="images/foto1.jpg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+								</div>
+								<div class="swiper-slide products__item">
+									<div class="products__img">
+										<img data-src="images/foto2.jpg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+								</div>
+								<div class="swiper-slide products__item">
+									<div class="products__img">
+										<img data-src="images/foto3.jpg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-right swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide products__item">
+									<div class="products__img">
+										<img data-src="images/foto1_1.jpg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+									<div class="products__bot _flex">
+										<div class="products__name">
+											<a href="/">Кофта <br>с капюшоном</a>
+										</div>
+
+										<div class="products__val">
+											<div class="products__old-price">5 600 ₽</div>
+
+											<div class="products__price">3 600 ₽</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide products__item">
+									<div class="products__img">
+										<img data-src="images/foto2_1.jpg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+									<div class="products__bot _flex">
+										<div class="products__name">
+											<a href="/">Сумка <br>женская</a>
+										</div>
+
+										<div class="products__val">
+											<div class="products__price">6 250 ₽</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide products__item">
+									<div class="products__img">
+										<img data-src="images/foto3_1.jpg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+									<div class="products__bot _flex">
+										<div class="products__name">
+											<a href="/">Водолазка</a>
+										</div>
+
+										<div class="products__val">
+											<div class="products__price">7 600 ₽</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide products__item">
+									<div class="products__img">
+										<img data-src="images/foto1_1.jpg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+									<div class="products__bot _flex">
+										<div class="products__name">
+											<a href="/">Водолазка</a>
+										</div>
+
+										<div class="products__val">
+											<div class="products__old-price"></div>
+
+											<div class="products__price">7 600 ₽</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide products__item">
+									<div class="products__img">
+										<img data-src="images/foto2_1.jpg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+									<div class="products__bot _flex">
+										<div class="products__name">
+											<a href="/">Сумка <br>женская</a>
+										</div>
+
+										<div class="products__val">
+											<div class="products__price">6 250 ₽</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide products__item">
+									<div class="products__img">
+										<img data-src="images/foto3_1.jpg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+									<div class="products__bot _flex">
+										<div class="products__name">
+											<a href="/">Сумка <br>женская</a>
+										</div>
+
+										<div class="products__val">
+											<div class="products__price">6 250 ₽</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="it-works _marg" id="anchor2">
+					<div class="cont">
+						<div class="it-works__bg">
+							<div class="main-title">Как это работает</div>
+
+							<div class="sub-title it-works__sub-title">
+								Современные алгоритмы машинного обучения автоматически выделяют объект на изображении и удаляют фон. 
+								<br>Наш модуль делает это быстро и удобно прямо <br>в <span>CMS 1C-Битрикс</span>
+							</div>
+
+							<div class="main-wrap">
+								<div class="it-works__items _flex">
+									<div class="it-works__item">
+										<div class="it-works__img">
+											<div class="it-works__number">1</div>
+	
+											<img data-src="images/it_works_img.jpg" src="images/img_plug.png" alt="" class="lazyload">
+										</div>
+	
+										<div class="it-works__name">Находим объект</div>
+	
+										<div class="it-works__desc">алгоритм сам определяет, что нужно оставить</div>
+									</div>
+									<div class="it-works__item">
+										<div class="it-works__img">
+											<div class="it-works__number">2</div>
+	
+											<img data-src="images/it_works_img.jpg" src="images/img_plug.png" alt="" class="lazyload">
+										</div>
+	
+										<div class="it-works__name">Отделяем фон</div>
+	
+										<div class="it-works__desc">убираем всё лишнее за долю секунды</div>
+									</div>
+									<div class="it-works__item">
+										<div class="it-works__img">
+											<div class="it-works__number">3</div>
+	
+											<img data-src="images/it_works_img.jpg" src="images/img_plug.png" alt="" class="lazyload">
+										</div>
+	
+										<div class="it-works__name">Готовая картинка</div>
+	
+										<div class="it-works__desc">чистый фон, чёткие края, готово к загрузке в магазин</div>
+									</div>
+								</div>
+	
+								<div class="wrap-btn">
+									<a href="/" class="btn-black">Купить модуль</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="bonus _marg">
+					<div class="cont">
+						<div class="main-title">Вжух — и фон исчез!</div>
+
+						<div class="sub-title bonus__sub-title">
+							А с CleanCard это работает ещё быстрее и сразу в CMS 1C-Битрикс
+						</div>
+
+						<div class="bonus__container">
+							<div class="bonus__image">
+								<img data-src="images/after_img.jpg" src="images/img_plug.png" alt="" class="bonus__image-after bonus__slider-image lazyload">
+
+								<img data-src="images/to_img.jpg" src="images/img_plug.png" alt="" class="bonus__image-before bonus__slider-image lazyload">
+							</div>
+
+							<input type="range" min="0" max="100" value="50" aria-label="Percentage of before photo shown" class="bonus__slider"/>
+
+							<div class="bonus__slider-button" aria-hidden="true">
+								<span>тяни</span>
+							</div>
+						</div>
+
+						<div class="bonus__bg">
+							<div class="bonus__info">
+								<div class="bonus__title">
+									При регистрации - вы получите 10 кредитов, <br>при покупке модуля - ещё 100
+								</div>
+
+								<div class="bonus__desc">
+									В любой момент можно приобрести дополнительные кредиты. 1 кредит = 1 обработка фото
+								</div>
+
+								<div class="wrap-btn">
+									<button type="button" data-content="#registration" class="btn-black modal-btn">Зарегистрироваться</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="advantages _marg">
+					<div class="cont">
+						<div class="main-title">Наши преимущества</div>
+
+						<div class="main-wrap">
+							<div class="advantages__items _flex">
+								<div class="advantages__item">
+									<div class="advantages__icon">
+										<img data-src="images/ic_adv1.svg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+	
+									<div class="advantages__name">Экономия времени</div>
+	
+									<div class="advantages__desc">Наш модуль позволяет отправлять фото и получать его обратно прямо в панели управления интернет-магазином</div>
+								</div>
+	
+								<div class="advantages__item">
+									<div class="advantages__icon">
+										<img data-src="images/ic_adv2.svg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+	
+									<div class="advantages__name">Массовая обработка</div>
+	
+									<div class="advantages__desc">Можно отправить сразу целый раздел каталога. Все фото вернутся без фона и готовыми к загрузке.</div>
+								</div>
+	
+								<div class="advantages__item">
+									<div class="advantages__icon">
+										<img data-src="images/ic_adv3.svg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+	
+									<div class="advantages__name">Предварительный просмотр</div>
+	
+									<div class="advantages__desc">Сразу видите, как будут выглядеть фото без фона, ещё до загрузки в карточку товара</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="integration _marg" id="anchor3">
+					<div class="cont">
+						<div class="integration__bg">
+							<div class="integration__icon">
+								<img data-src="images/ic_integration.svg" src="images/img_plug.png" alt="" class="lazyload">
+							</div>
+
+							<div class="main-title">Интеграция с CMS</div>
+
+							<div class="sub-title integration__sub-title">
+								Мы начали с <span>CMS 1C-Битрикс</span> — самой популярной CMS <br>для интернет-магазинов в России.
+							</div>
+
+							<div class="integration__info">
+								Если хотите интеграцию именно для своей CMS — напишите нам на <a href="mailto:info@cleancard.ru">info@cleancard.ru</a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer class="footer">
+				<div class="cont _flex">
+					<div class="footer__copy">&copy; 2025, «CleanCard» </div>
+
+					<div class="nav-menu _flex">
+						<div class="nav-menu__item">
+							<button type="button" data-anchor="#anchor1" class="scroll-link">Как это работает</button>
+						</div>
+						<div class="nav-menu__item">
+							<button type="button" data-anchor="#anchor2" class="scroll-link">Цена модуля</button>
+						</div>
+						<div class="nav-menu__item">
+							<button type="button" data-anchor="#anchor3" class="scroll-link">Купить модуль</button>
+						</div>
+					</div>
+	
+					<div class="footer__policy">
+						<a href="/">Политика конфиденциальности</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		
+		<div id="registration" class="modal">
+			<div class="modal__wrap">
+				<div class="main-title">Регистрация</div>
+
+				<form action="" class="form modal__form">
+					<div class="form__line">
+						<input type="email" value="" placeholder="E-mail" class="form__input">
+					</div>
+
+					<div class="form__line">
+						<div class="error-text">Укажите ФИО</div>
+
+						<input type="text" value="" placeholder="ФИО" class="form__input error">
+					</div>
+
+					<div class="form__line">
+						<input type="text" value="" placeholder="Домен, на который установлен модель, без https://*" class="form__input">
+					</div>
+
+					<div class="form__bot-flex _flex">
+						<div class="form__agree checkbox">
+							<label class="checkbox__label">
+								<input type="checkbox" name="agree" checked>
+	
+								<span class="checkbox__text">
+									Регистрируясь, вы соглашаетесь на обработку персональных данных и принимаете <a href="/" target="_blank">Политику конфиденциальности</a>
+								</span>
+							</label>
+						</div>
+	
+						<button type="submit" class="btn-black form__submit-btn">Зарегистрироваться</button>
+					</div>
+
+					<div class="modal__bot">
+						<button type="button" data-content="#login" class="modal__btn modal-btn">Авторизация</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div id="login" class="modal">
+			<div class="modal__wrap">
+				<div class="main-title">Авторизация</div>
+
+				<form action="" class="form modal__form">
+					<div class="form__line">
+						<input type="email" value="" placeholder="E-mail" class="form__input">
+					</div>
+
+					<div class="form__line">
+						<input type="text" value="" placeholder="Введите код из e-mail" class="form__input">
+					</div>
+
+					<div class="form__submit">
+						<button type="submit" class="btn-black _blue form__submit-btn">Войти</button>
+					</div>
+
+					<div class="modal__bot">
+						<button type="button" data-content="#registration" class="modal__btn modal-btn">Регистрация</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div id="cod" class="modal _big">
+			<div class="modal__wrap">
+				<div class="modal__logo">
+					<img data-src="images/logo_modal.svg" src="images/img_plug.png" alt="" class="lazyload">
+				</div>
+
+				<div class="modal__box">
+					<div class="modal__title">Здравствуйте!</div>
+
+					<div class="modal__sub-title">Чтобы войти в сервис CleanCard, <br>введите код указанный ниже</div>
+
+					<div class="modal__cod">X9A7G</div>
+
+					<div class="modal__desc">Без этого кода подтверждения доступ к вашей учётной записи будет невозможен.</div>
+				</div>
+
+				<div class="modal__copy">&copy; 2025, «CleanCard» </div>
+			</div>
+		</div>
+
+
+		<div class="supports-error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/in-view.min.js"></script>
+
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

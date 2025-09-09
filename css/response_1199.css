@@ -1,0 +1,117 @@
+@media (max-width: 1199px)
+{
+	._marg
+	{
+		margin-top: 40px;
+	}
+
+	.main-title
+	{
+		font-size: 38px;
+	}
+
+
+	.nav-menu__item + .nav-menu__item 
+	{
+        margin-left: 40px;
+    }
+
+
+	.first-section__wrap
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+		max-width: 350px;
+	}
+
+	.first-section__logo
+	{
+		height: 40px;
+	}
+
+	.first-section__amount
+	{
+		font-size: 84px;
+	}
+
+	.first-section__info
+	{
+		margin-top: 40px;
+	}
+
+	.first-section__bot
+	{
+		padding-top: 50px;
+	}
+
+
+	.products__item
+	{
+		padding-left: 7px;
+		padding-right: 7px;
+		width: 50%;
+	}
+
+	.products__bot
+	{
+		padding: 10px;
+	}
+
+	.products__name
+	{
+		font-size: 14px;
+	}
+
+	.products__val
+	{
+		margin-left: 5px;
+	}
+
+	.products__price
+	{
+		font-size: 15px;
+	}
+
+	.products__old-price 
+	{
+        font-size: 12px;
+    }
+
+
+	.bonus__title
+	{
+		font-size: 24px;
+	}
+
+
+	.cards 
+	{
+		margin-top: 40px;
+	}
+
+
+	.modal._big
+	{
+		width: 520px;
+	}
+
+	.modal__title
+	{
+		font-size: 44px;
+	}
+
+	.modal__sub-title
+	{
+		font-size: 18px;
+	}
+
+	.modal__cod
+	{
+		font-size: 54px;
+		line-height: 74px;
+	}
+	/*------------
+		commit
+	------------*/
+
+}

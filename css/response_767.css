@@ -1,0 +1,297 @@
+@media (max-width: 767px)
+{	
+	.main-title
+	{
+		font-size: 26px;
+	}
+
+
+	.wrap-btn
+	{
+		margin-top: 25px;
+	}
+
+
+	.form .form__input
+	{
+		font-size: 13px;
+	}
+
+	.form__submit-btn
+	{
+		line-height: 42px;
+	}
+
+
+	.first-section
+	{
+		padding-top: 30px;
+		margin-top: 0;
+		padding-bottom: 130px;
+	}
+
+	.products
+	{
+		justify-content: space-between;
+	}
+
+	.swiper-left
+	{
+		/* width: calc(65.6% - 21px);
+		margin-left: 14px; */
+	}
+
+	.swiper-right
+	{
+		/* width: calc(34.4% - 21px);
+		margin-right: 14px; */
+	}
+
+	.products__item
+	{
+		/* width: 100%;
+		padding: 0; */
+
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.swiper-right .products__item
+	{
+		/* width: 100%; */
+	}
+
+	.products__box
+	{
+		width: calc(50% - 5px);
+	}
+
+	.products__bot
+	{
+		padding: 7px 6px;
+	}
+
+	.products__name
+	{
+		font-size: 10px;
+	}
+
+	.products__old-price
+	{
+		font-size: 6px;
+	}
+
+	.products__price 
+	{
+		font-size: 10px;
+	}
+
+	.products__img img{
+		border-radius: 0;
+	}
+
+	.swiper-right .products__img img{
+		border-radius: 0;
+	}
+
+	.first-section__wrap
+	{
+		/* display: none; */
+		width: 39.2%;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-top: 40px;
+		/* min-height: 1px;
+
+		top: auto;
+		bottom: 0; */
+	}
+
+	.first-section__logo,
+	.first-section__logo-text
+	{
+		display: none;
+	}
+
+	.first-section__info
+	{
+		margin-top: 0;
+	}
+
+	.first-section__amount
+	{
+		font-size: 56px
+	}
+
+	.first-section__info span
+	{
+		font-size: 28px;
+	}
+
+	.first-section__bot
+	{
+		padding-top: 25px;
+	}
+
+	.first-section__desc
+	{
+		padding-bottom: 30px;
+	}
+
+	.first-section__desc::after
+	{
+		height: 16px;
+		background: url(../images/ic_arrow_mob.svg) 50% 50% no-repeat;
+	}
+
+
+	.it-works__bg
+	{
+		padding-top: 30px;
+	}
+
+	.it-works__sub-title
+	{
+		margin-top: 10px;
+	}
+
+	.it-works__items
+	{
+		margin-left: -14px;
+	}
+
+	.it-works__item
+	{
+		width: calc(100%/2 - 14px);
+		margin: 14px 0 0 14px;
+	}
+
+	.it-works__name
+	{
+		margin-top: 10px;
+	}
+
+
+	.bonus__image
+	{
+		aspect-ratio: 16 / 9;
+	}
+	
+	.bonus__slider-button
+	{
+		padding: 8px;
+		width: 54px;
+		height: 54px;
+		font-size: 11px;
+	}
+
+	.bonus__slider-button::before
+	{
+		top: 13px;
+		width: 24px;
+		height: 16px;
+	}
+
+	.bonus__info
+	{
+		padding: 30px 15px;
+	}
+
+	.bonus__title
+	{
+		font-size: 18px;
+	}
+
+	.bonus__desc
+	{
+		margin-top: 15px;
+	}
+
+
+	.advantages__items
+	{
+		margin-left: -14px;
+		margin-top: 6px;
+	}
+
+	.advantages__item
+	{
+		width: calc(100% / 2 - 14px);
+		margin: 14px 0 0 14px;
+	}
+
+	.advantages__name
+	{
+		margin-top: 15px;
+		font-size: 14px;
+	}
+
+
+	.integration__bg
+	{
+		padding: 30px 15px;
+	}
+
+	.integration__icon
+	{
+		margin-bottom: 15px;
+	}
+
+	.integration__info
+	{
+		font-size: 13px;
+	}
+
+	.cards 
+	{
+		margin-top: 20px;
+	}
+
+	.cards__item
+	{
+		width: calc(100% / 2 - 14px);
+	}
+
+
+	.footer
+	{
+		font-size: 12px;
+	}
+
+
+	.modal._big
+	{
+		padding: 30px 25px;
+	}
+
+	.modal__box
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.modal__logo
+	{
+		height: 44px;
+	}
+
+	.modal__title 
+	{
+		font-size: 36px;
+	}
+
+	.modal__sub-title 
+	{
+		font-size: 16px;
+	}
+
+	.modal__cod 
+	{
+		font-size: 46px;
+		line-height: 68px;
+	}
+
+	/*------------
+		commit
+	------------*/
+}

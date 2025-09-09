@@ -1,0 +1,214 @@
+@media (max-width: 479px)
+{
+	body
+	{
+		font-size: 11px;
+	}
+
+	
+	.form .form__input
+	{
+		height: 40px;
+	}
+
+
+	.btn-black
+	{
+		font-size: 12px;
+	}
+
+	.main-title 
+	{
+		font-size: 22px;
+	}
+
+	.header__logo 
+	{
+		height: 32px;
+	}
+
+
+	.first-section
+	{
+		padding-bottom: 196px;
+		margin-top: 10px;
+		padding-top: 0;
+	}
+
+	.first-section__wrap
+	{
+		width: 188px;
+
+
+		min-height: 1px;
+
+		top: auto;
+		bottom: 0;
+	}
+
+	.first-section__amount
+	{
+		font-size: 50px;
+	}
+
+	.first-section__bot
+	{
+		padding-top: 20px;
+	}
+
+	.first-section__desc
+	{
+		line-height: 1.6;
+	}
+
+
+	.swiper-left
+	{
+		width: calc(67.7% - 21px);
+		margin-left: 14px;
+	}
+
+	.swiper-right
+	{
+		width: calc(32.3% - 21px);
+		margin-right: 14px;
+	}
+
+	.products__item
+	{
+		width: 100%;
+		padding: 0;
+	}
+
+	.swiper-right .products__item
+	{
+		width: 100%;
+	}
+
+	.products__name
+	{
+		font-size: 5px;
+	}
+
+	.products__old-price
+	{
+		font-size: 4px;
+	}
+
+	.products__price 
+	{
+		font-size: 6px;
+	}
+
+
+	.it-works__bg
+	{
+		width: calc(100% + 30px);
+		margin-left: -15px;
+	}
+
+	.it-works__item
+	{
+		width: calc(100% / 1 - 14px);
+	}
+
+	.it-works__number
+	{
+		font-size: 18px;
+	}
+
+	.it-works__name
+	{
+		font-size: 14px;
+	}
+
+	.it-works__desc
+	{
+		font-size: 12px;
+	}
+
+
+	.bonus__container
+	{
+		width: calc(100% + 30px);
+		margin-left: -15px;
+		margin-top: 20px;
+	}
+
+	.bonus__title
+	{
+		font-size: 15px;
+	}
+
+	.bonus__title br
+	{
+		display: none;
+	}
+
+
+	.advantages__item
+	{
+		width: calc(100% / 1 - 14px);
+	}
+
+	.advantages__desc
+	{
+		font-size: 12px;
+	}
+
+
+	.integration__bg
+	{
+		width: calc(100% + 30px);
+		margin-left: -15px;
+	}
+
+	.footer 
+	{
+		font-size: 11px;
+	}
+
+
+	.modal
+	{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.modal__box
+	{
+		margin-top: 20px;
+	}
+
+	.modal__logo
+	{
+		height: 38px;
+	}
+
+	.modal__title 
+	{
+		font-size: 26px;
+	}
+
+	.modal__sub-title 
+	{
+		font-size: 12px;
+	}
+
+	.modal__cod 
+	{
+		font-size: 30px;
+		line-height: 50px;
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-top: 20px;
+	}
+
+	.modal__desc
+	{
+		margin-top: 25px;
+	}
+	/*------------
+		commit
+	------------*/
+}
