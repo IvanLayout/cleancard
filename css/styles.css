@@ -1357,13 +1357,15 @@ input[type=checkbox]:checked + .checkbox__text::after
 }
 
 .swiper-left{
-	width: 43.75%;
-	margin-left: -16px;
+	width: 56.75%;
+	margin-left: calc((1.5% - 16px)*-1);
+	margin-right: -9.5%;
 }
 
 .swiper-right{
-	width: 43.75%;
-	margin-right: -16px;
+	width: 56.75%;
+	margin-left: -6.5%;
+	margin-right: calc((6.5% - 16px)*-1);
 }
 
 .products__items
@@ -2081,10 +2083,14 @@ input[type=checkbox]:checked + .checkbox__text::after
 
 	.swiper-left{
 		margin-left: -10px;
+		width: 43.75%;
+		margin-right: 0;
 	}
 
 	.swiper-right{
 		margin-right: -10px;
+		width: 43.75%;
+		margin-left: 0;
 	}
 
 	.products__item

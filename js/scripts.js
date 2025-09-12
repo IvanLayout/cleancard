@@ -75,7 +75,7 @@ $(window).on('load', () => {
 				},
 				'1660': {
 					speed: 6000,
-					initialSlide: 2,
+					initialSlide: 1,
 				}
 			},
 		});
